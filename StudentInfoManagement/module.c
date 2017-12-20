@@ -47,3 +47,13 @@ StuData * new_studata()
     strcpy(pdata->email,"NoEmail@xx.com");
     return pdata;
 }
+
+Stu* new_stunode()
+{
+    Stu* pstu = (Stu *) malloc(sizeof(Stu));
+    pstu->data=*new_studata();
+    pstu->next=NULL;
+    return pstu;
+}
+
+

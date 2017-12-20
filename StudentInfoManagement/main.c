@@ -9,6 +9,6 @@
 
 int main()
 {
-    print_stu_data(new_studata());
+    print_stu_node(new_stunode());
     return 0;
 }
