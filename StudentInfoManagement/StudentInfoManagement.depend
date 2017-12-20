@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1513773333 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
+1513774824 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -8,7 +8,7 @@
 	<malloc.h>
 	"module.h"
 
-1513771797 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.h
+1513774708 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.h
 
 1513772342 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.c
 	<stdio.h>

@@ -20,6 +20,7 @@ int main()
     phead->next=prear;
     prear->next=phead;
     prear->id = 1;
+    print_stu_node(get_pre_node(phead,phead));
     //print_stu_node(phead);
     //print_stu_node(prear);
     char ch;
@@ -29,6 +30,7 @@ int main()
     {
         prear=add_rear_node(prear);
         prear->next=phead;
+
         print_stu_node(prear);
         printf("还要添加学生吗？\n输入q以退出添加模式\n");
         fflush(stdin);

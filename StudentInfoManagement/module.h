@@ -29,6 +29,10 @@ StuData* new_studata();
 Stu* new_stunode();
  // 返回各项域的值都为缺省值的一个新的 Stu 的内存地址
 
+ /*eg,
+prear=add_rear_node(prear);
+prear->next=phead;
+ */
 Stu* add_rear_node(Stu *prear);
  //在链表尾部添加一个新的结点，并对其人工初始化。但是尾部的指针没有在这里更新(但是尾部的指针没有在这个的内部进行更新)
  //返回值  0：失败，1：成功。
@@ -40,5 +44,5 @@ int get_list_count(Stu *phead);
 
 int get_number();
 
-
+Stu* get_pre_node(Stu* phead, Stu* pthis);
 

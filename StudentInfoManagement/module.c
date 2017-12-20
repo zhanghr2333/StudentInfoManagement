@@ -58,6 +58,10 @@ Stu* new_stunode()
     return pstu;
 } // 返回各项域的值都为缺省值的一个新的 Stu 的内存地址
 
+ /*eg,
+prear=add_rear_node(prear);
+prear->next=phead;
+ */
 Stu* add_rear_node(Stu *prear)
 {
     Stu *phead = prear->next;
@@ -128,7 +132,15 @@ int get_list_count(Stu *phead)
 }
 
 
-
+Stu* get_pre_node(Stu* phead, Stu* pthis)
+{
+    Stu *p=phead;
+    while(p->next!=pthis)
+    {
+        p=p->next;
+    }
+    return p;
+} //返回前一个结点的内存地址
 
 
 
