@@ -1,5 +1,8 @@
-
+//menu
 #include "module.h"
 
 int add_rear(Stu *phead, Stu *prear);
+
+int search_by_seq(Stu *phead, Stu *prear);
+
 

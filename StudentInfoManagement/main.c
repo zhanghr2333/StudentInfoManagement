@@ -10,7 +10,7 @@ Email : 1263189143@qq.com
 #include <string.h>
 #include <malloc.h>
 
-#include "module.h"
+#include "menu.h"
 
 
 int main()
@@ -24,5 +24,6 @@ int main()
     //print_stu_node(phead);
     //print_stu_node(prear);
     add_rear(phead,prear);
+    search_by_seq(phead,prear);
     return 0;
 }

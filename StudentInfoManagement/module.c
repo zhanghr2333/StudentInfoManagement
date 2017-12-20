@@ -140,7 +140,20 @@ Stu* get_pre_node(Stu* phead, Stu* pthis)
         p=p->next;
     }
     return p;
-} //返回前一个结点的内存地址
+} //返回前一个结点的内存地址.phead 的pre 是prear
+
+
+Stu* get_by_seq(Stu* phead,const int cseq)
+{
+    Stu *p=phead->next;
+    while(p->data.seq != cseq && p != phead )
+        p=p->next;
+    if(p==phead)
+        p=NULL;
+    return p;
+}
+
+
 
 
 

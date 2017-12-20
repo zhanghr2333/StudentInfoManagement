@@ -46,3 +46,6 @@ int get_number();
 
 Stu* get_pre_node(Stu* phead, Stu* pthis);
 
+Stu* get_by_seq(Stu* phead,const int cseq);
+
+
