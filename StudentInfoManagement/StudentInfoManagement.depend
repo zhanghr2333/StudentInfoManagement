@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1513767086 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<string.h>
+	<malloc.h>
+	"module.h"
+
+1513767082 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.h
+
