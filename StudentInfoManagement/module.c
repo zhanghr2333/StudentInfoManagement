@@ -106,7 +106,7 @@ int get_number()
 {
     int n;
     input: fflush(stdin);
-    pr("（整数）\n");
+    pr("（1~2017的正整数）\n");
     scanf("%d",&n);
     if(n<1||n>2018)
         goto input;
