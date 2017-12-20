@@ -12,6 +12,7 @@ typedef struct {
 } StuData; //学生的信息内容
 
 typedef struct node {
+    int id; //结点的名称
     StuData data; //学生信息内容
     struct node * next; //指向下一个学生结点
 } Stu; //学生结点
@@ -27,5 +28,17 @@ StuData* new_studata();
 
 Stu* new_stunode();
  // 返回各项域的值都为缺省值的一个新的 Stu 的内存地址
+
+Stu* add_rear_node(Stu *prear);
+ //在链表尾部添加一个新的结点，并对其人工初始化。但是尾部的指针没有在这里更新(但是尾部的指针没有在这个的内部进行更新)
+ //返回值  0：失败，1：成功。
+
+int init_stu_data(StuData *pdata);
+ //人工输入来初始化
+
+int get_list_count(Stu *phead);
+
+int get_number();
+
 
 
