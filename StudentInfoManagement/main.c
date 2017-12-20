@@ -9,6 +9,6 @@
 
 int main()
 {
-    print_stu_node((Stu *) malloc(sizeof(Stu)));
+    print_stu_data(new_studata());
     return 0;
 }

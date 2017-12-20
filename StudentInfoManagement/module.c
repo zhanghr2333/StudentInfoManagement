@@ -23,4 +23,9 @@ void print_stu_data(StuData *pdata)
     pr("\n\tprint_stu_data ended\n");
 }
 
-
+StuData * new_studata()
+{
+    StuData* pdata = (StuData *) malloc(sizeof(StuData));
+    pdata->seq = 0;
+    return pdata;
+}

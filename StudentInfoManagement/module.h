@@ -19,6 +19,6 @@ void print_stu_node(Stu *pstu);
 
 void print_stu_data(StuData *pdata);
 
-
+StuData* new_studata();
 
 
