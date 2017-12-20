@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1513767086 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
+1513767909 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
