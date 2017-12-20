@@ -14,7 +14,7 @@ void print_stu_node(Stu *pstu)
     printf("\nprint_stu_node:\n");
     print_stu_data(&pstu->data);
     pr("\nprint_stu_node ended\n");
-}
+} //显示一个 Stu 结点的数据的值
 
 void print_stu_data(StuData *pdata)
 {
@@ -29,7 +29,7 @@ void print_stu_data(StuData *pdata)
     pr("\t\tE-mail\t%s\n",pdata->email);
     //pr("\t\t\n");
     pr("\n\tprint_stu_data ended\n");
-}
+} //显示一个 StuData 的各个域的值
 
 StuData * new_studata()
 {
@@ -43,17 +43,17 @@ StuData * new_studata()
     pdata->birthday[1] = 0;
     pdata->birthday[2] = 0;
     strcpy(pdata->addr,"NoAddress");
-    strcpy(pdata->tel,"17023356789");
-    strcpy(pdata->email,"NoEmail@xx.com");
+    strcpy(pdata->tel,"NoTelPhone");
+    strcpy(pdata->email,"NoEmail");
     return pdata;
-}
+} // 返回各项域的值都为缺省值的一个新的 StuData 的内存地址
 
 Stu* new_stunode()
 {
     Stu* pstu = (Stu *) malloc(sizeof(Stu));
-    pstu->data=*new_studata();
-    pstu->next=NULL;
+    pstu->next=NULL; //safe
+    pstu->data=*new_studata(); //very safe
     return pstu;
-}
+} // 返回各项域的值都为缺省值的一个新的 Stu 的内存地址
 
 

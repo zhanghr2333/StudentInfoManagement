@@ -15,11 +15,17 @@ typedef struct node {
     StuData data; //学生信息内容
     struct node * next; //指向下一个学生结点
 } Stu; //学生结点
+
 void print_stu_node(Stu *pstu);
+ //显示一个 Stu 结点的数据的值
 
 void print_stu_data(StuData *pdata);
+ //显示一个 StuData 的各个域的值
 
 StuData* new_studata();
+ // 返回各项域的值都为缺省值的一个新的 StuData 的内存地址
 
 Stu* new_stunode();
+ // 返回各项域的值都为缺省值的一个新的 Stu 的内存地址
+
 
