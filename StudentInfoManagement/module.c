@@ -153,7 +153,15 @@ Stu* get_by_seq(Stu* phead,const int cseq)
     return p;
 }
 
-
+Stu* get_by_name(Stu* phead,const char* cname)
+{
+    Stu *p=phead->next;
+    while(strcmp(p->data.name,cname ) != 0 && p != phead )
+        p=p->next;
+    if(p==phead)
+        p=NULL;
+    return p;
+}
 
 
 

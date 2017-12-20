@@ -25,5 +25,6 @@ int main()
     //print_stu_node(prear);
     add_rear(phead,prear);
     search_by_seq(phead,prear);
+    search_by_name(phead,prear);
     return 0;
 }

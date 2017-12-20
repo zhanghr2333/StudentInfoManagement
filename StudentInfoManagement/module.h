@@ -1,7 +1,7 @@
 //module
 typedef struct {
     int seq; //学号 eg, 2436
-    char name[13]; //姓名 eg, 张三
+    char name[20]; //姓名 eg, 张三
     int age; //年龄 eg, 16
     char gender[5]; //性别 eg, 男
     char birthday_str[12]; //出生日期的字符形式 eg,1999/11/23
@@ -47,5 +47,11 @@ int get_number();
 Stu* get_pre_node(Stu* phead, Stu* pthis);
 
 Stu* get_by_seq(Stu* phead,const int cseq);
+
+Stu* get_by_name(Stu* phead,const char* cname);
+
+
+
+
 
 
