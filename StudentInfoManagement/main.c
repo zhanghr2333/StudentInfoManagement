@@ -3,12 +3,6 @@ StudentInfoManagementSystem version 0.1.1
 About : git://github.com/OhnkytaBlabdey/StudentInfoManagement
 Email : 1263189143@qq.com
 */
-#include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
-#include <math.h>
-#include <string.h>
-#include <malloc.h>
 
 #include "menu.h"
 
