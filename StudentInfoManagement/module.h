@@ -1,9 +1,6 @@
 //module
-
-#ifdef MODULE_H
-#else
+#ifndef MODULE_H
 #define MODULE_H
-
 
 #include <stdio.h>
 #include <stdlib.h>
