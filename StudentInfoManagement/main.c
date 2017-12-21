@@ -26,6 +26,6 @@ int main()
     add_rear(phead,prear);
     search_by_seq(phead,prear);
     search_by_name(phead,prear);
-    edit_stu_infoStu(phead, prear);
+    edit_stu_info(phead, prear);
     return 0;
 }

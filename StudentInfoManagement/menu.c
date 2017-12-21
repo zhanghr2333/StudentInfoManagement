@@ -70,7 +70,7 @@ int search_by_name(Stu *phead, Stu *prear)
     return 1;
 }
 
-int edit_stu_infoStu(Stu *phead, Stu *prear)
+int edit_stu_info(Stu *phead, Stu *prear)
 {
     char ch;
     printf("输入任意字符以开始修改学生信息，或输入q以退出修改模式\n\t");
