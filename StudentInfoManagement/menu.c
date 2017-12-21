@@ -106,7 +106,7 @@ int edit_stu_info(Stu *phead, Stu *prear)
         printf("\t\t地址(6)\n");
         printf("\t\t电话(7)\n");
         printf("\t\t邮箱(8)\n");
-        printf("\t\t退出(q)\n");
+        printf("\t\t退出(q)\n\t\t");
         fflush(stdin);
         datach = getch();
         if(datach != 'q')
@@ -126,10 +126,12 @@ int edit_stu_info(Stu *phead, Stu *prear)
                     goto datainfoget;
                 }
             }
+            printf("\t修改后的信息为：\n");
+            print_stu_node(pstu);
         }
         else
             {
-                printf("\t\t此学生的信息修改结束\n");
+                printf("\n\t\t此学生的信息修改结束\n");
                 goto nextstu;
             }
         goto datainfoget;

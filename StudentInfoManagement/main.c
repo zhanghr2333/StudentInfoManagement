@@ -9,6 +9,7 @@ Email : 1263189143@qq.com
 
 int main()
 {
+    system("color 8E");
     Stu *phead = new_stunode();
     Stu *prear = new_stunode();
     phead->next=prear;
