@@ -1,4 +1,7 @@
 //module
+#ifndef MODULE_H
+#define MODULE_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -57,7 +60,7 @@ Stu* get_by_seq(Stu* phead,const int cseq);
 
 Stu* get_by_name(Stu* phead,const char* cname);
 
-
+#endif // MODULE_H
 
 
 

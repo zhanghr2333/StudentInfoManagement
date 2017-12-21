@@ -5,7 +5,7 @@ Email : 1263189143@qq.com
 */
 
 #include "menu.h"
-
+#include "fileio.h"
 
 int main()
 {
@@ -21,5 +21,6 @@ int main()
     search_by_seq(phead,prear);
     search_by_name(phead,prear);
     edit_stu_info(phead, prear);
+    write_format(phead,prear);
     return 0;
 }
