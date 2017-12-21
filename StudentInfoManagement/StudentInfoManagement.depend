@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1513829547 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
+1513829800 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\main.c
 	"menu.h"
+	"fileio.h"
 
-1513829540 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.h
+1513829872 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.h
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -13,8 +14,8 @@
 1513829541 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\module.c
 	"module.h"
 
-1513828917 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\menu.h
-	"fileio.h"
+1513829789 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\menu.h
+	"module.h"
 
 1513828925 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\menu.c
 	<stdio.h>
@@ -25,7 +26,7 @@
 	<malloc.h>
 	"menu.h"
 
-1513828656 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\fileio.c
+1513829570 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\fileio.c
 	"module.h"
 
 1513829419 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\fileio.h
