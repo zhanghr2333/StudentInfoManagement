@@ -12,6 +12,7 @@
 #include <math.h>
 #include <string.h>
 #include <malloc.h>
+#include <windows.h>
 
 typedef struct {
     int seq; //Ñ§ºÅ eg, 2436
