@@ -11,7 +11,7 @@
 int add_rear(Stu *phead, Stu *prear)
 {
     char ch;
-    printf("\t输入任意字符以开始添加学生信息，或输入q以退出添加模式\n");
+    printf("\t输入任意字符以开始添加学生信息，或输入q以退出添加模式\n\t");
     ch=getch();
     while(ch!='q')
     {
@@ -19,7 +19,7 @@ int add_rear(Stu *phead, Stu *prear)
         prear->next=phead;
 
         print_stu_node(prear);
-        printf("\t还要添加学生信息吗？\n输入任意字符以继续添加。或输入q以退出添加模式\n");
+        printf("\t还要添加学生信息吗？\n\t输入任意字符以继续添加。或输入q以退出添加模式\n\t");
         fflush(stdin);
         ch=getch();
     }
@@ -29,7 +29,7 @@ int add_rear(Stu *phead, Stu *prear)
 int search_by_seq(Stu *phead, Stu *prear)
 {
     char ch;
-    printf("\t输入任意字符以开始按学号查询学生，或输入q以退出按学号查询模式\n");
+    printf("输入任意字符以开始按学号查询学生，或输入q以退出按学号查询模式\n\t");
     ch=getch();
     while(ch!='q')
     {
@@ -39,8 +39,8 @@ int search_by_seq(Stu *phead, Stu *prear)
         if(pstu)
             print_stu_node(pstu);
         else
-            printf("\t\t未查询到这个学生\n");
-        printf("\t还要查询学生吗？\n\t输入任意字符以继续按学号查询。或输入q以退出按学号查询模式\n");
+            printf("\t\t未查询到这个学生\n\n");
+        printf("\t还要查询学生吗？\n\t输入任意字符以继续按学号查询。或输入q以退出按学号查询模式\n\t");
         fflush(stdin);
         ch=getch();
     }
@@ -50,7 +50,7 @@ int search_by_seq(Stu *phead, Stu *prear)
 int search_by_name(Stu *phead, Stu *prear)
 {
     char ch;
-    printf("\t输入任意字符以开始按姓名查询学生，或输入q以退出按姓名查询模式\n");
+    printf("输入任意字符以开始按姓名查询学生，或输入q以退出按姓名查询模式\n\t");
     ch=getch();
     while(ch!='q')
     {
@@ -62,8 +62,8 @@ int search_by_name(Stu *phead, Stu *prear)
         if(pstu)
             print_stu_node(pstu);
         else
-            printf("\n\t\t未查询到这个学生\n");
-        printf("\t还要查询学生吗？\n输入任意字符以继续按姓名查询。或输入q以退出按姓名查询模式\n");
+            printf("\n\t\t未查询到这个学生\n\n");
+        printf("\t还要查询学生吗？\n\t输入任意字符以继续按姓名查询。或输入q以退出按姓名查询模式\n\t");
         fflush(stdin);
         ch=getch();
     }
@@ -73,7 +73,7 @@ int search_by_name(Stu *phead, Stu *prear)
 int edit_stu_infoStu(Stu *phead, Stu *prear)
 {
     char ch;
-    printf("\t输入任意字符以开始修改学生信息，或输入q以退出修改模式\n");
+    printf("输入任意字符以开始修改学生信息，或输入q以退出修改模式\n\t");
     ch=getch();
     while(ch!='q')
     {
@@ -90,7 +90,7 @@ int edit_stu_infoStu(Stu *phead, Stu *prear)
             }
         else
             {
-                printf("\t\t未找到这个学生，请重新输入\n");
+                printf("\t\t未找到这个学生，请重新输入\n\n");
                 goto inputseq;
             }
         //search
@@ -134,7 +134,7 @@ int edit_stu_infoStu(Stu *phead, Stu *prear)
             }
         goto datainfoget;
 
-        nextstu: printf("\n\n\t还要继续修改学生信息吗？\n输入任意字符以继续修改学生信息。或输入q以退出修改模式\n\n");
+        nextstu: printf("\n\n\t还要继续修改学生信息吗？\n\t输入任意字符以继续修改学生信息。或输入q以退出修改模式\n\n\t");
         fflush(stdin);
         ch=getch();
     }
