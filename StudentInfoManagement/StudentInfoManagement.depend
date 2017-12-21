@@ -19,8 +19,8 @@
 	<malloc.h>
 	"module.h"
 
-1513828463 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\menu.h
-	"module.h"
+1513828808 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\menu.h
+	"fileio.h"
 
 1513828463 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\menu.c
 	<stdio.h>
@@ -30,4 +30,10 @@
 	<string.h>
 	<malloc.h>
 	"menu.h"
+
+1513828656 source:g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\fileio.c
+	"module.h"
+
+1513828652 g:\myproject\git\ohnkyta\studentinfomanagement\studentinfomanagement\fileio.h
+	"module.h"
 
