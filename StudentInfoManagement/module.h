@@ -1,4 +1,11 @@
 //module
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <math.h>
+#include <string.h>
+#include <malloc.h>
+
 typedef struct {
     int seq; //学号 eg, 2436
     char name[20]; //姓名 eg, 张三
