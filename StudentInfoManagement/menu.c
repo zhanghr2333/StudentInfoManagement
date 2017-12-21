@@ -19,7 +19,7 @@ int add_rear(Stu *phead, Stu *prear)
         prear->next=phead;
 
         print_stu_node(prear);
-        printf("\t还要添加学生信息吗？\n\t输入任意字符以继续添加。或输入q以退出添加模式\n\t");
+        printf("\n\t还要添加学生信息吗？\n\t输入任意字符以继续添加。或输入q以退出添加模式\n\t");
         fflush(stdin);
         ch=getch();
     }
