@@ -1,9 +1,10 @@
 //module
-
-#ifdef MODULE_H
-#else
+/*
+ 数据类型的定义
+ 对学生信息的操作
+*/
+#ifndef MODULE_H
 #define MODULE_H
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +12,7 @@
 #include <math.h>
 #include <string.h>
 #include <malloc.h>
+#include <windows.h>
 
 typedef struct {
     int seq; //学号 eg, 2436
