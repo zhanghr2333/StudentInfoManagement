@@ -1,4 +1,8 @@
 //module
+/*
+ 数据类型的定义
+ 对学生信息的操作
+*/
 #ifndef MODULE_H
 #define MODULE_H
 

@@ -73,12 +73,12 @@ int init_stu_data(StuData *pdata)
 {
     pr("输入学号");
     pdata->seq = get_number();
-    pr("输入姓名\n");
+    pr("输入姓名\n\t\t");
     fflush(stdin);
     gets(pdata->name);
     pr("输入年龄");
     pdata->age=get_number();
-    pr("输入性别\n");
+    pr("输入性别\n\t\t");
     fflush(stdin);
     gets(pdata->gender);
     pr("输入出生年份");
@@ -88,13 +88,13 @@ int init_stu_data(StuData *pdata)
     pr("输入出生日");
     pdata->birthday[2] = get_number();
     sprintf(pdata->birthday_str,"%d/%d/%d",pdata->birthday[0],pdata->birthday[1],pdata->birthday[2]);
-    pr("输入地址\n");
+    pr("输入地址\n\t\t");
     fflush(stdin);
     gets(pdata->addr);
-    pr("输入电话\n");
+    pr("输入电话\n\t\t");
     fflush(stdin);
     gets(pdata->tel);
-    pr("输入邮箱\n");
+    pr("输入邮箱\n\t\t");
     fflush(stdin);
     gets(pdata->email);
     return 1;
@@ -104,7 +104,8 @@ int get_number()
 {
     int n;
     input: fflush(stdin);
-    pr("（1~2017的正整数）\n");
+    //pr("（1~2017的正整数）\n");
+    pr("\n\t\t");
     scanf("%d",&n);
     if(n<1||n>2018)
         goto input;
