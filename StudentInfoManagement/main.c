@@ -3,15 +3,9 @@ StudentInfoManagementSystem version 0.1.1
 About : git://github.com/OhnkytaBlabdey/StudentInfoManagement
 Email : 1263189143@qq.com
 */
-#include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
-#include <math.h>
-#include <string.h>
-#include <malloc.h>
 
 #include "menu.h"
-
+#include "fileio.h"
 
 int main()
 {
@@ -26,5 +20,6 @@ int main()
     add_rear(phead,prear);
     search_by_seq(phead,prear);
     search_by_name(phead,prear);
+    edit_stu_info(phead, prear);
     return 0;
 }

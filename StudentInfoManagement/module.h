@@ -1,4 +1,17 @@
 //module
+
+#ifdef MODULE_H
+#else
+#define MODULE_H
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <math.h>
+#include <string.h>
+#include <malloc.h>
+
 typedef struct {
     int seq; //学号 eg, 2436
     char name[20]; //姓名 eg, 张三
@@ -50,7 +63,7 @@ Stu* get_by_seq(Stu* phead,const int cseq);
 
 Stu* get_by_name(Stu* phead,const char* cname);
 
-
+#endif // MODULE_H
 
 
 
